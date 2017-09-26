@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Video Item 1",
-    "image": "",
+    "title": "Borussia Dortmund",
+    "image": "/images/bvb_logo.jpg",
     "selected": true
   },
   {
     "id": 2,
-    "title": "Video Item 2",
-    "image": "",
+    "title": "Let's meet the WestFallen Stadium",
+    "image": "/images/westfallen_stadium.jpeg",
     "selected": false
   },
   {
     "id": 3,
-    "title": "Video Item 3",
-    "image": "",
+    "title": "Marco Reus, the ROCKET",
+    "image": "/images/marco_reus_1.jpg",
     "selected": false
   },
   {
     "id": 4,
-    "title": "Video Item 4",
-    "image": "",
+    "title": "Piszczek assisted Yarmolenko to gain his first goal in BVB",
+    "image": "/images/piszczek_yarmolenko.jpg",
     "selected": false
   },
   {
     "id": 5,
-    "title": "Video Item 5",
-    "image": "",
+    "title": "Feel the YELLOW",
+    "image": "/images/yellow_wall.jpeg",
     "selected": false
   },
   {
     "id": 6,
-    "title": "Video Item 6",
-    "image": "",
+    "title": "The new captain, MARCO REUS",
+    "image": "/images/marco_reus_2.jpeg",
     "selected": false
   },
   {
     "id": 7,
-    "title": "Video Item 7",
-    "image": "",
+    "title": "Welcome to HELL!!!",
+    "image": "/images/bvb_euro_league.jpeg",
     "selected": false
   },
   {
     "id": 8,
-    "title": "Video Item 8",
-    "image": "",
+    "title": "Office daily in BVB",
+    "image": "/images/bvb_base.jpeg",
     "selected": false
   },
   {
     "id": 9,
-    "title": "Video Item 9",
-    "image": "",
+    "title": "Who's Dembele? Aubameyang has his new partner -- Maximilian Philipp!",
+    "image": "/images/auba_philipp.jpeg",
     "selected": false
   },
   {
     "id": 10,
-    "title": "Video Item 10",
-    "image": "",
+    "title": "Welcome back Mario!",
+    "image": "/images/bvb_twins.jpeg",
     "selected": false
   }
 ]
