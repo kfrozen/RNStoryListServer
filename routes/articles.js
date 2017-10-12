@@ -2,10 +2,10 @@ var express = require('express');
 var router = express.Router();
 var readFileAsync = require('../promiseUtils');
 
-/* GET videos listing. */
+/* GET articles listing. */
 router.get('/', function(req, res, next) {
 
-    readFileAsync("./modals/videos.json", "utf8")
+    readFileAsync("./modals/articles.json", "utf8")
         .then(function (data) {
             res.status(200).send(data);
         })
