@@ -2,60 +2,70 @@
   {
     "id": 1,
     "title": "Borussia Dortmund",
+    "desc": "Der Transfer des bisher an Newcastle United ausgeliehenen Mikel Merino (21) zum englischen Premier-League-Klub ist mittlerweile perfekt. Das Ende Juli 2017 abgeschlossene Leihgeschäft ist vertragsgemäß in einen permanenten Transfer übergegangen, weil die vereinbarten Parameter erfüllt sind. Spaniens U21-Nationalspieler war im Juli 2017 von CA Osasuna zu Borussia Dortmund gewechselt und in der zurückliegenden Saison zu neun Einsätzen in Bundesliga und DFB-Pokal gekommen. Der BVB kam in diesem Sommer dem Wunsch des talentierten Spielers nach, zunächst auf Leihbasis zu Newcastle United wechseln zu können. Beim aktuellen Tabellenneunten ist er an jedem der ersten sieben Spieltage der Premier League zum Einsatz gekommen. Borussia Dortmund wünscht Mikel Merino bei seinem neuen Klub für die Zukunft weiterhin alles Gute.",
     "image": "/images/bvb_logo.jpg",
     "selected": true
   },
   {
     "id": 2,
     "title": "Let's meet the WestFallen Stadium",
+    "desc": "Der Transfer des bisher an Newcastle United ausgeliehenen Mikel Merino (21) zum englischen Premier-League-Klub ist mittlerweile perfekt. Das Ende Juli 2017 abgeschlossene Leihgeschäft ist vertragsgemäß in einen permanenten Transfer übergegangen, weil die vereinbarten Parameter erfüllt sind. Spaniens U21-Nationalspieler war im Juli 2017 von CA Osasuna zu Borussia Dortmund gewechselt und in der zurückliegenden Saison zu neun Einsätzen in Bundesliga und DFB-Pokal gekommen. Der BVB kam in diesem Sommer dem Wunsch des talentierten Spielers nach, zunächst auf Leihbasis zu Newcastle United wechseln zu können. Beim aktuellen Tabellenneunten ist er an jedem der ersten sieben Spieltage der Premier League zum Einsatz gekommen. Borussia Dortmund wünscht Mikel Merino bei seinem neuen Klub für die Zukunft weiterhin alles Gute.",
     "image": "/images/westfallen_stadium.jpeg",
     "selected": false
   },
   {
     "id": 3,
     "title": "Marco Reus, the ROCKET",
+    "desc": "FIFA-Schiedsrichter Deniz Aytekin leitet das Bundesligaspiel zwischen Borussia Dortmund und Rasenballsport Leipzig am Samstag im Signal Iduna Park. Rafael Foltyn und Eduard Beitinger unterstützen ihn an den Seitenlinien. Vierter Offizieller ist Guido Winkmann. Als Video-Assistent kommt Günter Perl zum Einsatz.",
     "image": "/images/marco_reus_1.jpg",
     "selected": false
   },
   {
     "id": 4,
     "title": "Piszczek assisted Yarmolenko to gain his first goal in BVB",
+    "desc": "Das Bundesligaspiel zwischen Borussia Dortmund und Rasenballsport Leipzig ist am Samstag live beim Pay-TV-Sender „Sky“ zu sehen. Das BVB-Netradio ist ab 18.15 Uhr auf Sendung.",
     "image": "/images/piszczek_yarmolenko.jpg",
     "selected": false
   },
   {
     "id": 5,
     "title": "Feel the YELLOW",
+    "desc": "Lukasz Piszczek steht Borussia Dortmund vorerst nicht zur Verfügung. Der polnische Nationalspieler hat sich im WM-Qualifikationsspiel gegen Montenegro (4:2) eine Verletzung des Außenbandes im rechten Knie zugezogen.",
     "image": "/images/yellow_wall.jpeg",
     "selected": false
   },
   {
     "id": 6,
     "title": "The new captain, MARCO REUS",
+    "desc": "Ab jetzt wird die äußere Ähnlichkeit zwischen Vätern und Söhnen neu definiert: nämlich über die Kleidung. Genauer gesagt über die schwarzgelbe Fanbekleidung.",
     "image": "/images/marco_reus_2.jpeg",
     "selected": false
   },
   {
     "id": 7,
     "title": "Welcome to HELL!!!",
+    "desc": "1 Käfig, 4 Spieler, 10 Bälle – Stelle Dich der Herausforderung des OPEL Moments #2!",
     "image": "/images/bvb_euro_league.jpeg",
     "selected": false
   },
   {
     "id": 8,
     "title": "Office daily in BVB",
+    "desc": "Präzision und Geschwindigkeit sind klar von Vorteil, wenn man aus diesem besonderen Duell als Sieger hervorgehen möchte. Ein BVB-Profi und ein Gewinner stehen sich einem weiteren Duo, bestehend aus Profi und Gewinner, gegenüber. Der Austragungsort ist ein eigens dafür kreierter Metallkäfig, der in der Mitte durch eine Torwand mit vier gleichgroßen Öffnungen getrennt ist.",
     "image": "/images/bvb_base.jpeg",
     "selected": false
   },
   {
     "id": 9,
     "title": "Who's Dembele? Aubameyang has his new partner -- Maximilian Philipp!",
+    "desc": "Die vier Kontrahenten stehen gleichzeitig im Ring und starten mit jeweils fünf Fußbällen auf Ihrer Seite. Ziel des Spiels ist es die insgesamt zehn Bälle schnellstmöglich durch die Öffnungen der Torwand auf die Seite des gegnerischen Paares zu befördern.  ",
     "image": "/images/auba_philipp.jpeg",
     "selected": false
   },
   {
     "id": 10,
     "title": "Welcome back Mario!",
+    "desc": "Für diese einzigartige schwarzgelbe Challenge werden zwei Gewinner gesucht. Du musst dazu einfach bis Montag, den 30.10.2017 (12.00 Uhr), folgendes Teilnahmeformular ausfüllen und abschicken",
     "image": "/images/bvb_twins.jpeg",
     "selected": false
   }
