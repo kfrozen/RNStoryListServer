@@ -6,27 +6,55 @@ var mongodb = require('../public/database/db');
 
 /* GET players listing. */
 router.get('/', function(req, res, next) {
-    readFromDatabase(res);
+    readFromDatabase(res, {}, {'_section': 1, 'jersey': 1});
 });
 
-function readFromDatabase(res) {
-    databaseUtil.obtainCollectionAsync('Players')
-        .then(function (collection) {
-            collection.find().toArray(function (err, result) {
-                res.status(200).send(result);
+router.get('/goalkeepers', function (req, res, next) {
+    readFromDatabase(res, {'position': '门将'});
+});
 
-                res.end();
+router.get('/defenders', function (req, res, next) {
+    readFromDatabase(res, {'position': '后卫'});
+});
 
-                mongodb.close(true);
+router.get('/midfielders', function (req, res, next) {
+    readFromDatabase(res, {'position': '中场'});
+});
+
+router.get('/forwards', function (req, res, next) {
+    readFromDatabase(res, {'position': '前锋'});
+});
+
+function readFromDatabase(res, query, sort) {
+    return new Promise(function (resolve, reject) {
+        databaseUtil.obtainCollectionAsync('Players')
+            .then(function (collection) {
+                collection.find(query).sort(sort ? sort : {'jersey': 1}).toArray(function (err, result) {
+                    if(!res){
+                        resolve(result);
+                    }
+                    else{
+                        res.status(200).send(result);
+
+                        res.end();
+
+                        mongodb.close(true);
+                    }
+                });
+            })
+            .catch(function (err) {
+                if(!res){
+                    reject(err);
+                }
+                else{
+                    res.status(404).send(err.message);
+
+                    res.end();
+
+                    mongodb.close(true);
+                }
             });
-        })
-        .catch(function (err) {
-            res.status(404).send(err.message);
-
-            res.end();
-
-            mongodb.close(true);
-        });
+    });
 }
 
 module.exports = router;
