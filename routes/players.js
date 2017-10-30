@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var Promise = require('bluebird');
 var databaseUtil = Promise.promisifyAll(require('../public/database/databaseUtil'));
-var mongodb = require('../public/database/db');
 
 /* GET players listing. */
 router.get('/', function(req, res, next) {
@@ -37,8 +36,6 @@ function readFromDatabase(res, query, sort) {
                         res.status(200).send(result);
 
                         res.end();
-
-                        mongodb.close(true);
                     }
                 });
             })
@@ -50,8 +47,6 @@ function readFromDatabase(res, query, sort) {
                     res.status(404).send(err.message);
 
                     res.end();
-
-                    mongodb.close(true);
                 }
             });
     });

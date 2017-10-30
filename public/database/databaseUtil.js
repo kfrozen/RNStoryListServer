@@ -1,22 +1,25 @@
-var mongodb = require('./db');
+var MongoClient = require('mongodb').MongoClient;
+var url = 'mongodb://localhost:27017/HupuCrawlerDB';
 
 function DatabaseUtil(){
 }
 
 DatabaseUtil.obtainCollection = function(collectionName, callback) {
-    mongodb.open(function (err, db) {
+    MongoClient.connect(url, function (err, db) {
         if (err) {
             return callback(err);
         }
 
         db.collection(collectionName, function (err, collection) {
             if (err) {
-                mongodb.close(true);
+                db.close();
 
                 return callback(err);
             }
 
-            return callback(null, collection);
+            callback(null, collection);
+
+            db.close();
         });
     });
 };
