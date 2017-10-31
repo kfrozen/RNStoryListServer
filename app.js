@@ -9,6 +9,7 @@ var index = require('./routes/index');
 var articles = require('./routes/articles');
 var players = require('./routes/players');
 var images = require('./routes/images');
+var ranks = require('./routes/ranks');
 var crawlerService = require('./public/javascripts/crawlerService');
 
 var app = express();
@@ -31,6 +32,7 @@ app.use('/', index);
 app.use('/articles', articles);
 app.use('/players', players);
 app.use('/images', images);
+app.use('/ranks', ranks);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
